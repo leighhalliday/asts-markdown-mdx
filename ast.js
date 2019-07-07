@@ -9,7 +9,8 @@ function removePosition(node) {
 }
 
 const compiler = createMdxAstCompiler({ remarkPlugins: [] });
-const input = `import YouTube from "./YouTube";
+const input = `
+import YouTube from "./YouTube";
 
 # Welcome
 

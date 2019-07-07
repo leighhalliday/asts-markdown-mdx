@@ -1,7 +1,8 @@
 const { createMdxAstCompiler } = require("@mdx-js/mdx");
 const mdxHastToJsx = require("@mdx-js/mdx/mdx-hast-to-jsx");
 
-const input = `import YouTube from "./YouTube";
+const input = `
+import YouTube from "./YouTube";
 
 # Welcome
 
